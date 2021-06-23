@@ -1,0 +1,25 @@
+@font-face {
+    font-family: Raleway;
+    src: local("Police/Raleway-Black.ttf") format("ttf"),
+         local("Police/Raleway-BlackItalic.ttf") format("ttf"),
+         local("Police/Raleway-Bold.ttf") format("ttf"),
+         local("Police/Raleway-BoldItalic.ttf") format("ttf"),
+         local("Police/Raleway-ExtraBold.ttf") format("ttf"),
+         local("Police/Raleway-ExtraBoldItalic.ttf") format("ttf"),
+         local("Police/Raleway-ExtraLight.ttf") format("ttf"),
+         local("Police/Raleway-ExtraLightItalic.ttf") format("ttf"),
+         local("Police/Raleway-Italic.ttf") format("ttf"),
+         local("Police/Raleway-Light.ttf") format("ttf"),
+         local("Police/Raleway-LightItalic.ttf") format("ttf"),
+         local("Police/Raleway-Medium.ttf") format("ttf"),
+         local("Police/Raleway-MediumItalic.ttf") format("ttf"),
+         local("Police/Raleway-Regular.ttf") format("ttf"),
+         local("Police/Raleway-SemiBold.ttf") format("ttf"),
+         local("Police/Raleway-SemiBoldItalic.ttf") format("ttf"),
+         local("Police/Raleway-Thin.ttf") format("ttf"),
+         local("Police/Raleway-ThinItalic.ttf") format("ttf");
+}
+*
+{
+    font-family: 'Raleway', Arial, Verdana, sans-serif;
+}
