@@ -23,3 +23,57 @@
 {
     font-family: 'Raleway', Arial, Verdana, sans-serif;
 }
+.Hebergement
+{
+    background-color: #F2F2F2;
+}
+.populaires
+{
+    background-color: #F2F2F2;
+}
+.fas
+{
+    color: #0065FC;
+}
+.grey-star
+{
+    color: gray;
+}
+.foot
+{
+    background-color: #F2F2F2;
+}
+.circle-line
+{
+    color: black;
+}
+.icon-blue
+{
+    background-color: #8aacec;
+}
+.card-hebergement-container
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-bottom: 60px;
+}
+.card
+{
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 5px 5px 10px 5px;
+    background-color: white;
+    max-width: 236px;
+    margin-bottom: 28px;
+}
+.HebergementMarseille
+{
+    object-fit: cover;
+    width: 236px;
+    height: 112px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
