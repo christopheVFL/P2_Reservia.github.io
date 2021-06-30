@@ -63,6 +63,7 @@ h2
 {
     font-size: 0.9em;;
     padding-top: 3px;
+
 }
 .navheader
 {
@@ -220,6 +221,11 @@ p
     border-radius: 25px;
     font-weight: bold;
 }
+.filtre-list p:hover
+{
+    color: #0065FC;
+    text-decoration: underline;
+}
 h3
 {
     font-size: small;
@@ -348,7 +354,6 @@ h3
     background-color: white;
     padding: 6px 58px 6px 6px;
     max-width: 284px;
-    max-height: 135px;
     margin-bottom: 29px;
 }
 .PlusPopulaire
@@ -372,11 +377,6 @@ h3
 .card-textpop
 {
     padding-bottom: 30px;
-}
-.notationpop
-{
-    max-width: 94px;
-    max-height: 15px;
 }
 .activités-à-Marseille
 {
