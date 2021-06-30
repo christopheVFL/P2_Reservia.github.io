@@ -23,11 +23,6 @@
 {
     font-family: 'Raleway', Arial, Verdana, sans-serif;
 }
-.main
-{
-    margin-left: 100px;
-    margin-right: 100px;
-}
 h1
 {
     font-size: large
@@ -66,10 +61,8 @@ h2
 }
 .nav a
 {
-    font-size: 0.9em;
-    color: black;
+    font-size: 0.9em;;
     padding-top: 3px;
-    text-decoration: none;
 }
 .navheader
 {
@@ -80,6 +73,11 @@ h2
     color: #0065FC;
     font-weight: bold;
     margin-right: 10px;
+}
+.a.inscription:hover
+{
+    color: #0065FC;
+    text-decoration: none;
 }
 .header2
 {
@@ -387,7 +385,7 @@ h3
     flex-direction: column;
     flex-wrap: wrap;
     margin-bottom: 60px;
-    max-width: 1350px;
+    max-width: 1700px;
 }
 .Activités_à_Marseille
 {
@@ -454,4 +452,49 @@ h3
 {
     width: 304px;
     height: 100px;
+}
+.foot
+{
+    background-color: #F2F2F2;
+}
+.propos
+{
+    display: flex;
+    flex-direction: column;
+}
+.hebergements
+{
+    display: flex;
+    flex-direction: column;
+}
+.assistance
+{
+    display: flex;
+    flex-direction: column;
+}
+.container
+{
+    max-width: 1350px;
+    margin: auto;
+    width: 100%;
+}
+.container2
+{
+    max-width: 1350px;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+}
+a
+{
+    color: black;
+    text-decoration: none;
+}
+a:hover
+{
+    color: #0065FC;
+    text-decoration: none;
 }
