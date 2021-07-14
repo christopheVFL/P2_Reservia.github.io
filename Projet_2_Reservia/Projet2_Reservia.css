@@ -116,6 +116,10 @@ input
     color: white;
     font-weight: bold;
 }
+.loupe-search
+{
+    display: none;
+}
 button {
     appearance: auto;
     text-rendering: auto;
@@ -472,4 +476,47 @@ a:hover
 {
     color: #0065FC;
     text-decoration: none;
+}
+@media all and (max-width: 1024px)
+{
+    .filtre-list
+    {
+        flex-direction: column;
+    }
+    .hebergement-Marseille
+    {
+        flex-direction: column;
+    }
+    .rechercher
+    {
+        display: none;
+    } 
+    .loupe-search
+    {
+        display: inline-block;
+        background-color: #0065FC;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        width: 7%;
+        height: 40px;
+        border: none;
+        color: white;
+        font-weight: bold;
+    }
+
+}
+@media all and (max-width: 560px)
+{
+    nav ul
+    {
+        flex-direction: column;
+    }
+    .card-hebergement-container
+    {
+        flex-direction: column;
+    }
+    .container2
+    {
+        flex-direction: column;
+    }
 }
